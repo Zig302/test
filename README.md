@@ -8,7 +8,7 @@
 1) git branch <branch-name>
 2) git checkout <branch-name>
 ### or
-4) git checkout -b <branch-name>
+1) git checkout -b <branch-name>
 
 ## Developing a feature:
 1) git checkout <branch-name>
