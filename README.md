@@ -1,21 +1,24 @@
 # Working with git:
 
 ## On the first time:
-1) git clone https://github.com/yehonatanmizrachi/java-ex1.git
-2) cd java-ex1
+1) git clone https://github.com/omertub/beginners-git-course
+2) cd beginners-git-course
 
 ## Creating a new feature branch:
-1) git checkout develop
-2) git branch feature/XX
+1) git branch <branch-name>
+2) git checkout <branch-name>
+###or
+1) git checkout -b <branch-name>
 
 ## Developing a feature:
-1) git checkout feature/XX
-2) Ctrl + S
-3) git status (red)
-4) git add .
-5) git status (green)
-6) git commit -m "commit message"
-7) At the end of the day: git push origin feature/XX OR git push (when you inside the branch)
+1) git checkout <branch-name>
+2) git status (red)
+3) git add <filename>
+4) git status (green)
+5) git commit -m "commit message"
+6) At the end of the day: git push origin <branch-name>
+###or
+6) git push (when you inside the branch)
 
 ## When the feature is completed:
 1) add -> commit -> push
@@ -23,7 +26,7 @@
 3) Confirm PR (or wait for your friends CR)
 
 ## Pull develop updates to your current branch:
-1) git checkout feature/XX
+1) git checkout <branch-name>
 2) git pull origin develop
 In case there is conflicts - solve them in VS code
 
