@@ -1,4 +1,5 @@
 # Working with git:
+By yehonatanmizrachi
 
 ## On the first time:
 1) git clone https://github.com/omertub/beginners-git-course
