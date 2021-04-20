@@ -1,1 +1,1 @@
-echo "my name is Omer and I love playing basketball"
+echo "my name is Arik and I love playing PSP"
